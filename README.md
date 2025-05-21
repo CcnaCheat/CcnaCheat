@@ -1,3 +1,64 @@
+Here's a clear guide on **how to download and install Python** on Windows:
+
+---
+
+## 🐍 **How to Download & Install Python**
+
+### ✅ Step 1: Download Python
+
+Go to the official Python website:
+🔗 [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+It will automatically suggest the right version for your OS.
+
+---
+
+## 💻 **Windows**
+
+### 🔹 1. Download the Installer:
+
+* Go to: [https://www.python.org/downloads/windows](https://www.python.org/downloads/windows)
+* Click the **“Download Python”** button (e.g., `Python 3.12.x`)
+
+### 🔹 2. Run the Installer:
+
+* ✅ Important: **Check the box** that says:
+
+  ```
+  [✓] Add Python to PATH
+  ```
+* Click **Install Now**
+* Wait for installation to complete.
+
+### 🔹 3. Verify Installation:
+
+Open Command Prompt and run:
+
+```cmd
+python --version
+```
+
+or
+
+```cmd
+python3 --version
+```
+
+You should see something like:
+
+```
+Python 3.12.x
+```
+
+
+
+
+
+
+
+
+
+
 To run your Python script successfully, you need to install several packages. You can install all the required packages using `pip`. Here are the **commands to set up the packages**:
 
 ### ✅ 1. Install Required Python Packages
