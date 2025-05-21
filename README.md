@@ -27,7 +27,34 @@ Make sure to note the installation path (e.g., `C:\Program Files\Tesseract-OCR\t
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 ```
 
-  
+To add your **Groq API key** from [https://console.groq.com](https://console.groq.com), follow these steps:
+
+---
+
+### ✅ **1. Get Your API Key from Groq**
+
+1. Go to: [https://console.groq.com/keys](https://console.groq.com/keys)
+2. Log in and click **“Create API Key”**
+3. Copy the key (e.g., `gsk_live_...`)
+
+---
+
+### ✅ **2. Paste it into Your Script**
+
+Open your `sika.py` and **replace this line**:
+
+```python
+GROQ_API_KEY = "replace"  # Replace with your Groq API key
+```
+
+
+
+> ⚠️ Make sure to **keep the key in quotes** and do **not** share it publicly.
+
+---
+
+
+
 
 
 To run your Python file `sika.py`, follow these steps based on your operating system:
